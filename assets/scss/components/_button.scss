@@ -1,0 +1,169 @@
+.btn{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    border: 1px solid $neutral-900;
+    border-radius: 4px;
+    background: transparent;
+    padding: 12px 24px;
+    cursor: pointer;
+    
+}
+/*黑色按鈕樣式*/
+.black-btn{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* letter-spacing: 0.05em; */
+    color: $neutral-0;
+    size: 48px;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background: $neutral-900;
+    cursor: pointer;
+}
+.black-btn:hover{
+    font-family: "Noto Sans TC", sans-serif;
+    color: $neutral-0;
+    size: 48px;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background: $neutral-700;
+    cursor: pointer;
+}
+.black-btn:focus{
+    font-family: "Noto Sans TC", sans-serif;
+    color: $neutral-0;
+    size: 48px;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background: $neutral-700;
+    cursor: pointer;
+    box-shadow: 0 0 0 3px rgba(33, 37, 41, 0.1);
+}
+.btn-w-sm{
+    width: 115px;
+}
+.btn-w-md{
+    width: 182px;
+}
+.btn-w-lg{
+    width: 259px;
+}
+
+:disabled{
+    cursor: default;
+}
+.neutral-btn{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;    
+    padding: 12px 24px;
+    border: 1px solid $neutral-900;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    background: $neutral-0;
+    color: $neutral-900;
+}
+.neutral-btn:hover{
+    font-family: "Noto Sans TC", sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    background: $neutral-900;
+    color: $neutral-0;
+}
+.neutral-btn:focus{
+    font-family: "Noto Sans TC", sans-serif;    
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    background: $neutral-900;
+    color: $neutral-0;
+    box-shadow: 0 0 0 3px rgba(33, 37, 41, 0.1);
+}
+.heart-btn{
+    display: none;
+}
+@media(max-width:767px){
+    .neutral-btn{
+    display: none;    
+    }
+    .heart-btn{
+    display:block;
+    border: none;
+    background: $neutral-0;
+    color: $neutral-900;
+}
+}
+
+@media(max-width:576px){
+    .black-sm-btn{
+    width: 99px;
+    padding: 8px 16px;
+    }
+    .black-sm-btn:hover{
+    width: 99px;
+    padding: 8px 16px;
+    }
+    .black-sm-btn:focus{
+    width: 99px;
+    padding: 8px 16px;
+    }
+    .black-lg-btn{
+        width: 295px;
+    }
+    
+}
+.primary-lg-btn{
+    font-family: "Noto Sans TC", sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background: $primary-300;
+}
+.primary-lg-btn:hover{
+    font-family: "Noto Sans TC", sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background: $primary-300;
+    color: $primary-500;
+}
+.primary-lg-btn:focus{
+    font-family: "Noto Sans TC", sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background: $primary-300;
+    color: $primary-500;
+    box-shadow: 0 0 0 3px #C0FA7366;
+}
+
+/*登入頁*/
+.auth-btn{
+    font-family: "Noto Sans TC", sans-serif;
+    padding: 12px 24px;
+    border-bottom: 2px solid $neutral-900;
+    text-align: center;
+}

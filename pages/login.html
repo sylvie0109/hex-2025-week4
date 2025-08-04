@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URBNSTEP | 我的收藏</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    
+    <main>
+      <div class="container">
+        <div class="row d-flex py-64">
+          <div class="col-5">
+            <img src="/assets/images/login.png" alt="login">
+          </div>
+          <div class="col-7">
+            <div class="auth-section py-120 px-80 flex-1">
+              <h1 class="h3 mb-32 ta-center">歡迎！</h1>
+              <ul class="auth-toggle d-flex mb-32 ai-center">
+                <li>
+                  <a href="#" class="ta-center">登入</a>                
+                  </li>
+                <li>
+                  <button type="button" class="auth-btn">註冊</button>           
+              </ul>
+              <ul class="social-login">
+                <li class="mb-8">
+                  <a href="#">
+                    <img src="/assets/images/facebook.svg" alt="facebook" class="mr-12">
+                  <span>Facebook 登入</span>
+                  </a>                  
+                </li>
+                <li class="mb-8">
+                  <a href="#">
+                    <img src="/assets/images/apple.svg" alt="Apple" class="mr-12">
+                    <span>Apple 登入</span>
+                  </a>                  
+                </li>
+                <li class="mb-8">
+                  <a href="#" >
+                    <img src="/assets/images/google.svg" alt="Goolgle" class="mr-12">
+                  <span>Google 登入</span>
+                  </a>                  
+                </li>
+              </ul>          
+            </div>
+          </div>  
+        </div>
+      </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

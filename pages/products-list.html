@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URBNSTEP | 商品列表</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main class="container mb-48">
+        <!--麵包屑導覽-->
+        <nav>
+            <ol class="d-flex pt-32 pt-md-16 mb-24 mb-md-12">
+                <li class="breadcrumb-item text-sm"><a href="index.html" class="breadcrumb-link">首頁</a></li>
+                <li class="breadcrumb-item text-sm"><a href="#" class="breadcrumb-link">女鞋</a></li>
+                <li class="breadcrumb-item text-sm"><a href="#">所有商品</a></li>
+            </ol>
+        </nav>
+        <h1 class="h3 h4-md py-7 py-md-9 mb-24 mb-md-12">女鞋</h1>
+        <nav class="row d-flex">
+            <!--商品導覽列-->
+            <div class="col-2 d-md-none">
+                <nav>
+                    <ul class="menu">
+                        <li class="mb-16"><a href="#" class="py-8 active">所有商品</a></li>
+                        <li class="mb-16"><a href="#" class="py-8">慢跑鞋</a></li>
+                        <li class="mb-16"><a href="#" class="py-8">滑板鞋</a></li>
+                        <li class="mb-16"><a href="#" class="py-8">厚底鞋</a></li>
+                        <li class="mb-16"><a href="#" class="py-8">限定 / 聯名企劃</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--商品列表-->
+            <div class="col-10 col-md-4">
+                <ul class="row d-flex flex-wrap">
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="product-detail.html">
+                                <img src="/assets/images/product.png" alt="PLATFORM 404" class="mb-12">
+                                <h2 class="h6 mb-4">PLATFORM 404</h2>
+                                <p class="mb-48 mb-md-24">NT$2,600</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-1.png" alt="PLATFORM 404" class="mb-12">
+                                <h2 class="h6 mb-4">PLATFORM 404</h2>
+                                <p class="mb-48 mb-md-24">NT$2,600</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-2.png" alt="VM001" class="mb-12">
+                                <h2 class="h6 mb-4">VM001</h2>
+                                <p class="mb-48 mb-md-24">NT$2,600</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-3.png" alt="Melty Kiss" class="mb-12">
+                                <h2 class="h6 mb-4">Melty Kiss</h2>
+                                <p class="mb-48 mb-md-24">NT$4,000</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-4.png" alt="BOOMBLOK" class="mb-12">
+                                <h2 class="h6 mb-4">BOOMBLOK</h2>
+                                <p class="mb-48 mb-md-24">NT$3,200</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-5.png" alt="BOOMBLOK" class="mb-12">
+                                <h2 class="h6 mb-4">BOOMBLOK</h2>
+                                <p class="mb-48 mb-md-24">NT$3,200</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-6.png" alt="NT$3,200" class="mb-12">
+                                <h2 class="h6 mb-4">R:UNER</h2>
+                                <p class="mb-48 mb-md-24">NT$4,000</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-7.png" alt="Sugar Snap" class="mb-12">
+                                <h2 class="h6 mb-4">Sugar Snap</h2>
+                                <p class="mb-48 mb-md-24">NT$4,000</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-8.png" alt="Neofoam" class="mb-12">
+                                <h2 class="h6 mb-4">Neofoam</h2>
+                                <p class="mb-48 mb-md-32">NT$4,000</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="d-none d-md-block col-md-2">
+                        <div class="card">
+                            <a href="#">
+                                <img src="/assets/images/product-9.png" alt="Buttermood" class="mb-12">
+                                <h2 class="h6 mb-4">Buttermood</h2>
+                                <p class="mb-48 mb-md-32">NT$4,000</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <!--頁數-->
+                <ul class="mb-32 mb-md-16 d-flex jc-center ai-center">
+                    <li class="page-item mr-12"><button type="button" class="page-btn" disabled><i class="bi bi-chevron-left"></i></button></li>
+                    <li class="page-item mr-8"><button type="button" class="page-btn">1</button></li>
+                    <li class="page-item mr-8"><button type="button" class="page-btn">2</button></li>
+                    <li class="page-item mr-8"><button type="button" class="page-btn">3</button></li>
+                    <li class="page-item mr-8"><button type="button" class="page-btn">...</button></li>
+                    <li class="page-item mr-12"><button type="button" class="page-btn">10</button></li>
+                    <li class="page-item mr-8"><button type="button" class="page-btn"><i class="bi bi-chevron-right"></i></button></li>
+                </ul>
+            </div>            
+        </nav>
+        
+    </main>
+    <%- include('./layout/section-join'); -%>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+.mobile-nav{
+  display: none;
+}
+@media(max-width:576px){
+  .mobile-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .nav-link{
+    width: 50%;
+  }
+  .mobile-nav a{
+    text-align: center;
+    display: block;
+    padding: 12px;
+  }
+}
+
+.banner{
+  background-image: url("/assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 289px 0;
+}
+.image-card{
+  position: relative;
+  display: inline-block;
+}
+.image-tag{
+  padding: 8px 12px;
+  background: $primary-100;
+  color: $primary-400;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner-co{
+  background-image: url("/assets/images/banner-co-branded.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+
+  .star-img{
+      position: absolute;
+      width: 48px;
+      top: 68px;
+      left: calc(50% - 397px);
+    }
+    .sparkle-img{
+      position: absolute;
+      width: 76px;
+      bottom: 132px;
+      right: calc(50% - 357px);
+    }
+}
+
+@media(max-width:767px){
+  .banner{
+    background-image: url("/assets/images/banner-sm.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 155px 0;
+  }
+  .banner-co{
+    background-image: url("/assets/images/banner-co-branded-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+    padding: 48px 0;
+    overflow: hidden;
+    .star-img{
+      top: 32px;
+      left: -20px;
+    }
+    .sparkle-img{
+      bottom: 104px;
+      right: -28px;
+    }
+  }
+  
+}
+.category-card{
+  position: relative;
+  display: inline-block;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000066; /* 黑色遮罩，透明度 40% */
+  pointer-events: none; /* 不影響點擊事件 */
+}
+.category-card p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+.inspiration-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.inspiration-col{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12);
+}
+.inspiration-col-1{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12*1);
+}
+.inspiration-col-2{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12*2);
+}
+.inspiration-col-3{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12*3);
+}
+.inspiration-col-4{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12*4);
+}
+.inspiration-col-5{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12*5);
+}
+.inspiration-col-6{
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100%/12*6);
+}
+.mobile-inspiration{
+  display: none;
+}
+@media(max-width:767px){
+  .inspiration-row{
+    display: none;
+  }
+  .mobile-inspiration{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

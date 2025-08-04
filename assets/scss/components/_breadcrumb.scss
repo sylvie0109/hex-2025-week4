@@ -1,0 +1,16 @@
+/*麵包屑導覽*/
+.breadcrumb-item+.breadcrumb-item::before{
+    content: '/';
+    padding: 0 12px;
+    color: $neutral-300;
+}
+.breadcrumb-item{
+    display: flex;
+    font-weight: 500;
+}
+.breadcrumb{
+    color: $neutral-600;
+}
+.breadcrumb-link{
+    color: $neutral-600;
+}

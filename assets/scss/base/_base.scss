@@ -1,0 +1,42 @@
+/*標籤的基本樣式*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+/*全域設定*/
+body{
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: $neutral-900;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+img:hover{
+    vertical-align: middle;
+    max-width: 100%;
+    opacity: 0.8;
+}
+a{
+	text-decoration: none;
+	color: $neutral-900;
+}
+a:hover{
+	text-decoration: none;
+	color: $neutral-600;
+}
+nav a:focus{
+	text-decoration: none;
+	color: $neutral-900;
+    border-bottom: 2px solid $neutral-900;
+}
+nav :disabled{
+    pointer-events: none;
+}
+i{
+    font-size: 20px;
+    width: 18px;
+    height: 18px;
+}

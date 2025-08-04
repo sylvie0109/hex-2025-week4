@@ -1,0 +1,32 @@
+.bi-check-lg{
+    font-size: 24px;
+    color: $primary-500;
+    background-color: $primary-300;
+    
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 1;
+}
+.bi-truck{
+    width: 24px;
+    height: 24px;
+}
+.f-card img{
+    width: 120px;
+    height: 120px;
+}
+.section-lined{
+    border-bottom: 1px solid $neutral-300;
+}
+
+.p-flex{
+    display: flex;
+    gap: 12px;
+}

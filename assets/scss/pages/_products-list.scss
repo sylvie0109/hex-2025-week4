@@ -1,0 +1,37 @@
+.menu .active{
+    color: $primary-400;
+}
+.menu .active:hover{
+    color: $primary-500;
+}
+.menu .active:focus{
+    color: $primary-500;
+    border-bottom: 2px solid $primary-500;
+}
+.card a:hover{
+    border:none;
+}
+.page-btn{
+    font-family: "Noto Sans TC", sans-serif;
+    background: transparent;
+    border: none;
+    padding: 8px 15px; 
+    font-weight: 400;
+    cursor: pointer;
+}
+.page-btn:hover{
+    border-radius: 0;
+    padding: 8px 15px; 
+    font-weight: 600;
+    background: $neutral-100;
+}
+.page-btn:focus{
+    border-radius: 0;
+    padding: 8px 15px; 
+    font-weight: 600;
+    background: $primary-300;
+}
+/* .page-item .active{
+    font-weight: 500;
+    background: $primary-300;
+} */
